@@ -1,0 +1,17 @@
+/* CSS Reset*/
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+/* font stuff goes in body */
+html {
+  font-size: 62.5%; /* root font size in percent relative to root font for rem*/
+}
+
+body {
+  box-sizing: border-box;
+}
